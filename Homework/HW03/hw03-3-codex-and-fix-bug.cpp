@@ -10,7 +10,7 @@ int main() {
     scanf("%d %d", &rows1, &cols1);
     for (i = 0; i < rows1; i++) {
         for (j = 0; j < cols1; j++) {
-            printf("Enter [%d %d] value : ", i, j);
+            printf("Enter [%d %d] value : ", i , j);
             scanf("%d", &Matrix1[i][j]);
         }
     }
@@ -20,7 +20,7 @@ int main() {
     scanf("%d %d", &rows2, &cols2);
     for (i = 0; i < rows2; i++) {
         for (j = 0; j < cols2; j++) {
-            printf("Enter [%d %d] value : ", i, j);
+            printf("Enter [%d %d] value : ", i , j);
             scanf("%d", &Matrix2[i][j]);
         }
     }
@@ -76,7 +76,7 @@ int main() {
                 printf("%d ", Matrix4[i][j]);
             }
             printf("\n");
-        } //end for
-    } //end else
+        }
+    }
     return 0;
 }
