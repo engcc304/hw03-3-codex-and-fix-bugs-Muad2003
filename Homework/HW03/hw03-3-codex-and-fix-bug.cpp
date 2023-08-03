@@ -8,7 +8,6 @@ int main() {
     printf("Enter Matrix1:\n");
     printf("Enter number of rows and columns: ");
     scanf("%d %d", &rows1, &cols1);
-
     for (i = 0; i < rows1; i++) {
         for (j = 0; j < cols1; j++) {
             printf("Enter [%d %d] value: ", i, j);
@@ -19,7 +18,6 @@ int main() {
     printf("\nEnter Matrix2:\n");
     printf("Enter number of rows and columns: ");
     scanf("%d %d", &rows2, &cols2);
-
     for (i = 0; i < rows2; i++) {
         for (j = 0; j < cols2; j++) {
             printf("Enter [%d %d] value: ", i, j);
@@ -45,7 +43,6 @@ int main() {
 
     rows3 = cols1;
     cols3 = rows1;
-
     for (i = 0; i < rows3; i++) {
         for (j = 0; j < cols3; j++) {
             Matrix3[i][j] = Matrix1[j][i];
@@ -61,11 +58,10 @@ int main() {
     }
 
     if (cols1 != rows2) {
-        printf("\nMatrix1 and Matrix2 cannot be multiplied\n");
+        printf("\nMatrix1 and Matrix2 cannot multiply\n");
     } else {
         rows4 = rows1;
         cols4 = cols2;
-
         for (i = 0; i < rows4; i++) {
             for (j = 0; j < cols4; j++) {
                 Matrix4[i][j] = 0;
@@ -74,7 +70,6 @@ int main() {
                 }
             }
         }
-
         printf("\nMatrix1 x Matrix2 is:\n");
         for (i = 0; i < rows4; i++) {
             for (j = 0; j < cols4; j++) {
