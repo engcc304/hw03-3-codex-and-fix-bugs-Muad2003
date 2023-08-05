@@ -21,7 +21,7 @@ int main() {
     for( i = 0 ; i < rows2 ; i++ ) {
         for( j = 0 ; j < cols2 ; j++ ) {
             printf( "Enter [%d %d] value : ", i , j ) ;
-            scanf( "%d", &Matrix2[i][j] ) ;
+            scanf( "%d ", &Matrix2[i] ) ;
         }
    }
 
