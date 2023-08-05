@@ -25,10 +25,10 @@ int main() {
         }
    }
 
-    printf( "\nMatrix1 : \n" ) ;
+    printf( "\nMatrix1 :\n" ) ;
     for( i = 0 ; i < rows1 ; i++ ) {
         for( j = 0 ; j < cols1 ; j++ ) {
-            printf( "%d ", Matrix1[i][j] ) ;
+            printf( "%d", Matrix1[i][j] ) ;
         }
         printf( "\n" ) ;
     }
